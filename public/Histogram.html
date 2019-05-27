@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>a1</title>
+		<link href="Histogram.css" rel="stylesheet" type="text/css"/>
+		<script type="text/javascript" src="calculate.js"></script>
+	</head>
+	<body>
+		<h1>Histogram Generator</h1>
+		<div class="grid">
+			<div class="box box1">
+				<h2>Lower bounds</h2>
+				<form>
+						<label>
+							Max <input type="number" step="0.01" id="max" value="100.00"/><br><br>
+						</label>
+						<label>
+							A+&nbsp;&nbsp;&nbsp;<input type="number" step="0.01" id="A1" value="95.00"/><br><br>
+						</label>
+						<label>
+							A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" step="0.01" id="A2" value="90.00"/><br><br>
+						</label>
+						<label>
+							A-&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" step="0.01" id="A3" value="85.00"/><br><br>
+						</label>
+						<label>
+							B+&nbsp;&nbsp;&nbsp;<input type="number" step="0.01" id="B1" value="80.00"/><br><br>
+						</label>
+						<label>
+							B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" step="0.01" id="B2" value="75.00"/><br><br>
+						</label>
+						<label>
+							B-&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" step="0.01" id="B3" value="70.00"/><br><br>
+						</label>
+						<label>
+							C+&nbsp;&nbsp;&nbsp;<input type="number" step="0.01" id="C1" value="65.00"/><br><br>
+						</label>
+						<label>
+							C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" step="0.01" id="C2" value="60.00"/><br><br>
+						</label>
+						<label>
+							C-&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" step="0.01" id="C3" value="55.00"/><br><br>
+						</label>
+						<label>
+							D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" step="0.01" id="D" value="50.00"/><br><br>
+						</label>
+						<label>
+							F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" step="0.01" id="F" value="0.00"/><br><br>
+						</label>
+				</form>
+			</div>
+			<div class="box box2">
+				<h2>Histogram</h2>
+				<form>
+					<label>A+ </label><p id="output1"></p><br>
+					<label>A&nbsp;&nbsp;  </label><p id="output2"></p><br>
+					<label>A-&nbsp; </label><p id="output3"></p><br>
+					<label>B+ </label><p id="output4"></p><br>
+					<label>B&nbsp;&nbsp;  </label><p id="output5"></p><br>
+					<label>B-&nbsp; </label><p id="output6"></p><br>
+					<label>C+ </label><p id="output7"></p><br>
+					<label>C&nbsp;&nbsp;  </label><p id="output8"></p><br>
+					<label>C-&nbsp; </label><p id="output9"></p><br>
+					<label>D&nbsp;&nbsp; </label><p id="output10"></p><br>
+					<label>F&nbsp;&nbsp;&nbsp; </label><p id="output11"></p><br>
+
+				</form>
+			</div>
+		</div>
+
+	</body>
+
+</html>

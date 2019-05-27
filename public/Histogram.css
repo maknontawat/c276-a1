@@ -1,0 +1,46 @@
+.grid
+{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	margin-left: 40px;
+	margin-right:40px;
+	grid-column-gap: 1em;			
+}
+.grid > div
+{
+	background-color: #c8c7dd;
+	padding:1em;
+}
+.box1
+{
+	align-self: start;
+}
+.box2
+{
+	align-self: start;
+}
+h1{
+	text-indent: 0.5em;
+}
+h2{
+	color:red;
+	text-indent: 2em;
+}
+label{
+	font-weight:bold;
+	margin-left: 5em;
+}
+input{
+	border-style: solid;
+	height: 30px;
+	width: 100px; 
+	font-weight: bold;
+	margin-left: 10em;
+	text-align: right;   
+}
+p
+{
+	display: inline-block;
+	font-weight: bold;
+	margin-left:10em;
+}
