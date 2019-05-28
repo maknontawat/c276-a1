@@ -113,17 +113,61 @@ window.onload = function()
 		else if(grades[i] < d && grades[i] >= f)
 			countF++;
 	}
-	document.getElementById("output1").innerHTML = countA1;
-	document.getElementById("output2").innerHTML = countA2;
-	document.getElementById("output3").innerHTML = countA3;
-	document.getElementById("output4").innerHTML = countB1;
-	document.getElementById("output5").innerHTML = countB2;
-	document.getElementById("output6").innerHTML = countB3;
-	document.getElementById("output7").innerHTML = countC1;
-	document.getElementById("output8").innerHTML = countC2;
-	document.getElementById("output9").innerHTML = countC3;
-	document.getElementById("output10").innerHTML = countD;
-	document.getElementById("output11").innerHTML = countF;	
+	document.getElementById("output1").innerHTML = "";
+	for ( var i=0;i<countA1;i++)
+	{
+		document.getElementById("output1").innerHTML += "😎";
+	}
+	document.getElementById("output2").innerHTML = "";
+	for ( var i=0;i<countA2;i++)
+	{
+		document.getElementById("output2").innerHTML += "😊";
+	}	
+	document.getElementById("output3").innerHTML = "";
+	for ( var i=0;i<countA3;i++)
+	{
+		document.getElementById("output3").innerHTML += "😄";
+	}	
+	document.getElementById("output4").innerHTML = "";
+	for ( var i=0;i<countB1;i++)
+	{
+		document.getElementById("output4").innerHTML += "😃";
+	}
+	document.getElementById("output5").innerHTML = "";
+	for ( var i=0;i<countB2;i++)
+	{
+		document.getElementById("output5").innerHTML += "😆";
+	}		
+	document.getElementById("output6").innerHTML = "";
+	for ( var i=0;i<countB3;i++)
+	{
+		document.getElementById("output6").innerHTML += "😏";
+	}
+	document.getElementById("output7").innerHTML = "";
+	for ( var i=0;i<countC1;i++)
+	{
+		document.getElementById("output7").innerHTML += "😙";
+	}
+	document.getElementById("output8").innerHTML = "";
+	for ( var i=0;i<countC2;i++)
+	{
+		document.getElementById("output8").innerHTML += "🤗";
+	}		
+	document.getElementById("output9").innerHTML = "";
+	for ( var i=0;i<countC3;i++)
+	{
+		document.getElementById("output9").innerHTML += "😅";
+	}	
+	document.getElementById("output10").innerHTML = "";
+	for ( var i=0;i<countD;i++)
+	{
+		document.getElementById("output10").innerHTML += "😟";
+	}
+	document.getElementById("output11").innerHTML = "";
+	for ( var i=0;i<countF;i++)
+	{
+		document.getElementById("output11").innerHTML += "😭";
+	}	
 };
 window.addEventListener('keypress',function myfunction(e)
 {
@@ -226,17 +270,61 @@ window.addEventListener('keypress',function myfunction(e)
 			else if(grades[i] < d && grades[i] >= f)
 				countF++;
 		}
-		document.getElementById("output1").innerHTML = countA1;
-		document.getElementById("output2").innerHTML = countA2;
-		document.getElementById("output3").innerHTML = countA3;
-		document.getElementById("output4").innerHTML = countB1;
-		document.getElementById("output5").innerHTML = countB2;
-		document.getElementById("output6").innerHTML = countB3;
-		document.getElementById("output7").innerHTML = countC1;
-		document.getElementById("output8").innerHTML = countC2;
-		document.getElementById("output9").innerHTML = countC3;
-		document.getElementById("output10").innerHTML = countD;
-		document.getElementById("output11").innerHTML = countF;
+		document.getElementById("output1").innerHTML = "";
+		for ( var i=0;i<countA1;i++)
+		{
+			document.getElementById("output1").innerHTML += "😎";
+		}
+		document.getElementById("output2").innerHTML = "";
+		for ( var i=0;i<countA2;i++)
+		{
+			document.getElementById("output2").innerHTML += "😊";
+		}	
+		document.getElementById("output3").innerHTML = "";
+		for ( var i=0;i<countA3;i++)
+		{
+			document.getElementById("output3").innerHTML += "😄";
+		}	
+		document.getElementById("output4").innerHTML = "";
+		for ( var i=0;i<countB1;i++)
+		{
+			document.getElementById("output4").innerHTML += "😃";
+		}
+		document.getElementById("output5").innerHTML = "";
+		for ( var i=0;i<countB2;i++)
+		{
+			document.getElementById("output5").innerHTML += "😆";
+		}		
+		document.getElementById("output6").innerHTML = "";
+		for ( var i=0;i<countB3;i++)
+		{
+			document.getElementById("output6").innerHTML += "😏";
+		}
+		document.getElementById("output7").innerHTML = "";
+		for ( var i=0;i<countC1;i++)
+		{
+			document.getElementById("output7").innerHTML += "😙";
+		}
+		document.getElementById("output8").innerHTML = "";
+		for ( var i=0;i<countC2;i++)
+		{
+			document.getElementById("output8").innerHTML += "🤗";
+		}		
+		document.getElementById("output9").innerHTML = "";
+		for ( var i=0;i<countC3;i++)
+		{
+			document.getElementById("output9").innerHTML += "😅";
+		}	
+		document.getElementById("output10").innerHTML = "";
+		for ( var i=0;i<countD;i++)
+		{
+			document.getElementById("output10").innerHTML += "😟";
+		}
+		document.getElementById("output11").innerHTML = "";
+		for ( var i=0;i<countF;i++)
+		{
+			document.getElementById("output11").innerHTML += "😭";
+		}
 	}
 })
 
